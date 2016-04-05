@@ -3,17 +3,7 @@
 " ===== pathogen config =====
 execute pathogen#infect()
 
-" ===== custom config =====
-syntax enable
-syntax on
-filetype plugin indent on
-
-colorscheme desert
-
-set wrap!
-set linebreak
-set number
-set sw=2  "shift width
-set tabstop=4
-" set expandtab  "replace tab with space
-set showmatch
+" config files
+source $HOME/.vim/settings.vim
+source $HOME/.vim/map.vim
+source $HOME/.vim/plugins.vim
