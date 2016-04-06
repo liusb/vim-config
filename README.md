@@ -11,7 +11,7 @@ git submodule update --init
 ### Install a plugin
 ```
 cd ~/.vim
-git submodule add http://github.com/{username}/{plugin_name}.git  bundle/{plugin_name}
+git submodule add https://github.com/{username}/{plugin_name}.git  bundle/{plugin_name}
 git add .
 git commit -m "install {plugin_name}.vim bundle as a submodule."
 ```
