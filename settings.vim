@@ -8,10 +8,13 @@ set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 
 " UI setting
 colorscheme desert
+set guifont=Consolas\ 13
+set lines=30 columns=82
 " set guioptions-=m
 set guioptions-=T
 set number
-set wrap!
+set wrap
+set linebreak
 
 " indent
 set autoindent
